@@ -1,0 +1,33 @@
+.whole-calculator{
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 295px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;   
+    background: gray; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.button-gap{
+    padding: 20px;
+}
+.screen{
+    background: white;
+    border: 1px solid black;
+    height: 60px;
+    width: 200px;
+    margin-left: 43px;
+    margin-top: 20px;
+}
+#screen{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    font-size: 60px;
+}
+.line{
+    border: 2px solid black;
+    border-style: dashed;
+}
