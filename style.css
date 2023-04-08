@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;   
     background: gray; 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
 }
 .button-gap{
     padding: 5px;
@@ -32,4 +32,9 @@
 }
 .vertical{
     padding-left: 38px;
+}
+.btn:hover{
+    background-color:rgba(0, 0, 0,0.7);
+    transition: background-color 0.4s ease-in;
+    color: white;
 }
